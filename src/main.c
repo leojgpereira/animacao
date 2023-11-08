@@ -5,6 +5,16 @@
 #include "cglm/cglm.h"
 #include "cglm/call.h"
 
+/* 
+   Trabalho prático da disciplina de Computação Gráfica
+   Realizado pelos estudantes:
+   - Alexandre Diniz de Souza
+   - Giovane H. Iwamoto
+   - Leandro José G. Pereira
+
+   O relatório correspondente a este trabalho pode ser encontrado em "animacao/Relatorio.pdf"
+*/
+
 int main() {
     createWindow();
     struct Shader shaderCubo = createShader("res/shaders/main.vs", "res/shaders/main.fs");
